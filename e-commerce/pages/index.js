@@ -6,6 +6,7 @@ import styles from '../styles/Home.module.css'
 import Product from "../component/Product"
 import {initMongoose} from '../lib/mongoose'
 import {findAllProducts} from './api/products'
+import Footer from '../component/Footer';
 
 export default function Home({products}) {
   const [phrase,setPhrase] = useState('');
@@ -40,6 +41,9 @@ export default function Home({products}) {
         ))}
 
       </div>
+
+      <Footer />
+      
     </div>
   )
 }

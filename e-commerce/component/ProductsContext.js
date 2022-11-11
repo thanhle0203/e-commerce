@@ -1,5 +1,5 @@
 import { createContext } from "react";
-import useLocalStorageState from 'use-local-storeage-state';
+import useLocalStorageState from 'use-local-storage-state';
 
 export const ProductsContext = createContext({});
 
